@@ -4,6 +4,7 @@ def create_gui():
     root = tk.Tk()
     root.title("Calvino Academy Certifications")
     root.geometry("400x380")
+    root.iconbitmap('Utilities\icon.ico')
 
     default_font = ('Comfortaa', 12)
     root.option_add('*Font', default_font)
